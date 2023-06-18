@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/ground.png"), url("/assets/tr.png"),url("/assets/top.png"), linear-gradient(0deg, blue, green 40%, red);
+    background-image: url("./assets/ground.png"), url("./assets/tr.png"),url("./assets/top.png"), linear-gradient(0deg, blue, green 40%, red);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
