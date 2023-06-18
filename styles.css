@@ -1,0 +1,25 @@
+body {
+    background-image: url("/assets/ground.png"), url("/assets/tr.png"),url("/assets/top.png"), linear-gradient(0deg, blue, green 40%, red);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    object-fit:cover;
+    /* background: linear-gradient(to bottom, red, green, blue); */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#canvas {
+   /* background: blue; */
+    position: absolute;
+    top:0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+
+}
+
+#collisionCanvas{
+    opacity: 0;
+}
